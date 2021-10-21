@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Reservations &gt; Havana Residences & Resorts</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <main>
+            <h1>Reservation At Havana Residences & Resorts</h1>
+        
+        <table>
+            <caption>Homes And Prices</caption>
+            <tr>
+                <th>Home Type</th>
+                <th>Rooms</th>
+                <th>Price Per Night</th>
+            </tr>
+            <tr>
+                <td>Apartment</td>
+                <td>2</td>
+                <td>&#8358;75,000</td>
+            </tr>
+            <tr>
+                <td>Duplex</td>
+                <td>4</td>
+                <td>&#8358;100,000</td>
+            </tr>
+            <tr>
+                <td>Mansion</td>
+                <td>5+</td>
+                <td>&#8358;250,000</td>
+            </tr>
+        </table>
+        <h2>Book Your Reservation</h2>
+        <form>
+            <p><label>First Name: <input type="text"></label></p>
+            <p><label>Last Name: <input type="text"></label></p>
+            <p><label>Phone: <input type="text"></label></p>
+            <p><label>Email: <input type="email"></label></p>
+            <p><label for="city">Choose your destination:</label></p>
+            <select name="city" id="city" required>
+                <option value="Abidjan">Abidjan</option>
+                <option value="Abuja">Abuja</option>
+                <option value="Accra">Accra</option>
+                <option value="Cairo">Cairo</option>
+                <option value="Cape Town">Cape Town</option>
+                <option value="Dakar">Dakar</option>
+                <option value="Lagos" selected>Lagos</option>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Rabat">Rabat</option>
+                <option value="Yaounde">Yaounde</option>
+            </select>
+            <p></p>
+            <fieldset>
+                <legend>Preferred Home Type:</legend>
+                <label><input type="radio" name="home-type">Apartment</label>
+                <label><input type="radio" name="home-type">Duplex</label>
+                <label><input type="radio" name="home-type">Mansion</label>
+            </fieldset>
+            <p><label>Check In: <input type="date"></label></p>
+            <p><label>Check Out: <input type="date"></label></p>
+            <p><label>Feedback</label></p>
+            <textarea placeholder="Comments or special requests..."></textarea>
+            <p><button type="submit">Submit Request</button></p>
+            <p><small><strong>Reservations must be made 30 days in advance.</strong></small></p>
+        </form>
+        <p><a href="index.html">Return to Home Page</a></p>
+    </main>
+    </body>
+</html>
